@@ -1,0 +1,45 @@
+https://web.mit.edu/6.005/www/fa14/tutorial/git/config.html
+
+git config --global user.name
+
+git config --list
+
+git help config'
+
+git init [initialize a Git respository]
+
+cd .git
+
+echo "# wired-brain-recipes" >> README.md
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/heissenberg303/wired-brain-recipes.git
+
+git push -u origin master
+
+git status
+
+git status -short
+
+git diff
+
+git commit -a -m "add new vendor"
+
+git log
+
+git rm
+    git rm --cache
+
+git mv FileName newFileName
+
+git branch
+
+git stash
+    => saved working directory and index state WIP on master
+    -> git stash list
+    -> git stash pop
+    -> git stash show
+
+git checkout -b new_branch 
+    => create new branch
